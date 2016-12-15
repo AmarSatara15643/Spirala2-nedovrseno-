@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE>Hyrule Warriors</TITLE>
+<link rel="stylesheet" type="text/css" href="grid.css">
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+<script src="validacija.js"></script>
+<script src="googlemapa.js"></script>
+<meta charset="UTF-8">
+</HEAD>
+<BODY>
+    <img src="HEADER.png" alt="glavnaslika"></img>
+<div class="red">
+    <div class="kolona jedan"> 
+
+	<li>
+	<input id="link_id" type="text" name="AccountText" class="form-control" placeholder="Name" required='' />
+	<button type="submit"  id='link' onClick='javascript:goTo()'><img src="search.png"> </button>
+	</li>
+	
+    </div>
+	
+    	<div class="kolona tri">
+	
+	<div class="dropdown">
+        <button class="dropbtn">Pik Prodaja</button>
+        <div class="dropdown-content">
+            <a href="http://www.olx.ba/profil/voltage" target="_blank">Slanje na pik stranicu</a>
+            <a href="#">Ponuda usluga</a>
+        </div>
+    </div>
+	
+	<div class="dropdown">
+        <button class="dropbtn">Servis</button>
+        <div class="dropdown-content">
+            <a href="Servis.html">Ponuda usluga</a>
+            <a href="lokacije.html">Gdje nas možete posjetiti</a>
+        </div>
+    </div>
+	
+	<div class="dropdown">
+        <button class="dropbtn">Vijesti</button>
+        <div class="dropdown-content">
+            <a href="Vijesti.html">Najnovije</a>
+            <a href="#">Eventi u blizini</a>
+			<a href="#">Stare vijesti</a>
+        </div>
+    </div>
+	
+	<div class="dropdown">
+        <button class="dropbtn">
+		  <a href="lokacije.html" >Lokacije</a>
+		</button>        
+    </div>
+	
+	<div class="dropdown">
+        <button class="dropbtn">O nama</button>
+        <div class="dropdown-content">
+            <a href="O nama.html">Ukratko</a>
+            <a href="lokacije.html">Poslovnice</a>
+			<a href="#">Kontakt</a>
+			<a href="Galerija.html">Galerija</a>
+        </div>
+    </div>
+	
+	<div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><a href="index.html" ><img id="Home" src="home.png" alt="home"></a></button>
+        
+    </div>
+	
+    </div>
+</div>
+
+<div class="red">
+    <div id="reklama" class="kolona jedan">
+	    <img class="slikareklame" src="reklama2.jpg" alt="reklama">
+		<img class="slikareklame" src="reklama1.jpg" alt="reklama">
+	</div>
+	<div class="kolona tri" >
+        <div id="map"></div>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFhszgBzv4IJcvRqplH86TlRUzK0-3pbk&callback=initMap">
+        </script>
+    </div>
+</div>
+
+<div id="footer" class="red">
+    <p>WT 2016</p>
+</div>
+
+
+
+</BODY>
+</HTML>

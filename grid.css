@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+}
+head{
+	width: 100%;
+	margin: 0 auto;
+	min-width: 500px;
+	max-width: 1300px;
+}
+img{
+	width: 100%;
+	margin: 0 auto;
+}
+p{
+	margin-left: 4px;
+}
+
+div#meni
+{
+	background-color: #000000;
+	
+}
+div#reklama
+{
+	background-color: transparent;
+}
+div#reklama img
+{
+	margin-top: 0px;
+	background-color: 
+}
+div#artikal
+{
+	background-color: #0066ff;
+	border-style: solid;
+    border-width: 12px;
+	border-color: white;
+	margin-right: 10px;
+}
+
+div#lista
+{
+	background-color: white;
+}
+
+div#cijena
+{
+	background-color: #ff7733;
+	height: 40px;
+	border-color: #0066ff;
+	font-family: "Comic Sans MS";
+	float: right;
+}
+
+div#footer
+{
+	background-color: black;
+	height: 40px;
+	border-color: #0066ff;
+	font-family: "Arial Black";
+	font-size: 12px;
+}
+
+b
+{
+	color:#b32400;
+	font-family: "Comic Sans MS";
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+#map {
+        height: 400px;
+        width: 100%;
+		margin-top: 2px;
+	    margin-left: 4px;
+		z-index: -1;
+       }
+#Home{
+	max-width: 16px;
+	max-height: 16px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+}
+#link{
+	margin-top: 8px;
+	margin-left: 0px;
+	height: 23px;
+	width: 23px;
+    
+    background-position: left;
+    padding-left: 0px;
+}
+#link_id{
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 100px;
+}
+body{
+	width: 100%;
+	margin: 0 auto;
+	min-width: 500px;
+	max-width: 1300px;
+	background-color: black;
+}
+
+li {
+    float: left;
+}
+
+p{
+	color: white;
+	font-family: "Comic Sans MS";
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 8px;
+    text-decoration: none;
+	font-family: "Comic Sans MS";
+}
+.slika{
+	margin-top: 3px;
+	margin-left: 3px;
+	max-height: 150px;
+	max-width: 250px;
+}
+.slikareklame{
+	margin-top: 0px;
+	margin-left: 0px;
+	max-height: 200px;
+	max-width: 300px;
+}
+.red{
+	padding: 0px;
+	width:100%;
+	float:left;
+	min-height: 10px;
+	
+}
+
+.kolona{	
+	margin-left: 0%;
+	margin-right: 0%;
+	display: inline-block;
+	float: left;
+	min-height: 10px;
+}
+
+.kolona:first-child{
+	margin-left: 0px;
+}
+
+.kolona:last-child{
+	margin-right: 0px;
+}
+
+.kolona.cetiri{
+	width: 100%;
+}
+.kolona.tri{
+	width: 80%;
+	
+}
+.kolona.dva{
+	width: 56%;
+}
+.kolona.jedan{
+	width: 20%;	
+}

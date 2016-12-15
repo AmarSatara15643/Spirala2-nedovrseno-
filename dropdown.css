@@ -1,0 +1,66 @@
+.dropbtn {
+    background-color: black;
+    color: white;
+	margin-top: 0px;
+    padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	font-family: "Comic Sans MS";
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: grey;
+}
+
+.dropdown {
+   /* position: absolute;*/
+    display: inline-block;
+	font-family: "Comic Sans MS";
+}
+.dropbtn a{
+	padding: 0px;
+}
+.dropdown-content {
+    display: none;
+	font-family: "Comic Sans MS";
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	background-color: black;
+	font-family: "Comic Sans MS";
+}
+
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: silver;
+}
+
+.show {display:block;}
+
+a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    text-decoration: none;
+	font-family: "Comic Sans MS";
+}
